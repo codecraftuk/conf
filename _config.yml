@@ -2,3 +2,6 @@ destination: _site
 permalink: /:year/:month/:day/:title
 markdown: rdiscount
 pygments: true
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
