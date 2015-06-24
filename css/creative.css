@@ -178,12 +178,19 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#header-background {
+    background-image: url(../img/header.jpg);
+}
+
+#header-background-dontjuststandthere {
+    background-image: url(../img/portfolio/2.jpg);
 }
 
 header .header-content {
