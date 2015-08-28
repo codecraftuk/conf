@@ -193,6 +193,10 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portfolio/2.jpg);
 }
 
+#header-background-cooking {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portfolio/4.jpg);
+}
+
 header .header-content {
     position: relative;
     width: 100%;
