@@ -489,3 +489,7 @@ body {
 .black-text p {
   color: black;
 }
+
+.break-word {
+  word-break: break-word;
+}
