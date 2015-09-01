@@ -51,6 +51,18 @@ p {
     line-height: 1.5;
 }
 
+p.no_margin {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 .bg-primary {
     background-color: #f05f40;
 }
