@@ -666,6 +666,13 @@ Schedule
 	font-size: 2rem;
 }
 
+.schedule-image {
+    float: left;
+    font-size: 26px;
+	padding: 2.5rem 2.5rem 2.5rem 0;
+	color: #222;
+}
+
 .schedule-speaker {
 	position: relative;
 	float: right;
