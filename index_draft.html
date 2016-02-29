@@ -66,12 +66,13 @@
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#schedule">Schedule</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#location">Location</a></li>
-                            <li><a href="#tickets">Tickets</a></li>
                             <li><a href="#more-information">More Info</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#image-slider">Photos</a></li>
+                            <!--<li><a href="#news">News</a></li>-->
+                            <!--<li><a href="#schedule">Schedule</a></li>-->
+                            <!--<li><a href="#location">Location</a></li>-->
+                            <!--<li><a href="#tickets">Tickets</a></li>-->
                         </ul>
                     </div>
 
@@ -81,9 +82,6 @@
     </div>
 
     <div class="container content">
-
-
-
         <!--===============================-->
         <!--== About ======================-->
         <!--===============================-->
@@ -91,18 +89,19 @@
             <div class="row">
                 <div class="col-sm-12 col-md-2">
                     <div class="section-header text-left">
-                        <h2><b>About</b> this event</h2>
+                        <h2>
+                            <b>About</b> this event
+                        </h2>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <h4>CodeCraftConf is the software craftsmanship conference that puts 'confer' back into 'conference'.</h4>
-                    <p>No presentations: just guided conversations and lean coffee sessions on the hottest topics in software development, amongst a small number of your peers.</p>
+                    <p>No presentations: just <a href="http://code.joejag.com/2015/guided-conversations.html">guided conversations</a> and <a href="http://leancoffee.org/">lean coffees</a> on the hottest topics in software development amongst your peers.</p>
                     <p>Traditionally conferences feature a set of talks given by speakers, where you consume their thoughts and perhaps get a chance to ask a question at the end.</p>
                     <p>This conference will be different.</p>
                     <p> In small groups, we will have guided conversations around the latest topics of interest to software developers. We'll provide the guide, and you'll provide your thoughts. We will all learn from each other.</p>
-                    <p><a href="http://code.joejag.com/2015/guided-conversations.html">More on Guided Conversations</a></p>
                     <p>
-                        New for this years:
+                        New for 2016:
                         <ul>
                             <li>4 tracks</li>
                             <li>Experimental track</li>
@@ -126,9 +125,40 @@
         </section>
         <!--==========-->
         <!--===============================-->
+        <!--== more-information =======-->
+        <!--===============================-->
+        <section id="more-information" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="section-header text-left">
+                        <h2><em class="fa fa-envelope"></em> <b>Mailing List</b></h2>
+                        <p>Please sign our mailing list to get the latest news about the conference.</p>
+                    </div>
+                    <form id="subscribe-form" method="post" class="form">
+                        <input name="name" id="sname" type="text" placeholder="Name" required>
+                        <input name="email" id="smail" type="email" placeholder="Email" required>
+                        <button type="submit" name="submit" class="button button-active">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="section-header text-left">
+                        <h2>
+                            <em class="fa fa-twitter"></em> <b>Follow us on Twitter</b>
+                        </h2>
+                        <p>Follow us on twitter to get the latest conference news and join the conversation.</p>
+                    </div>
+                    <div>
+
+                        <span><a class="button button-active" href="https://twitter.com/codecraftuk">Follow CodeCraftUK</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========-->
+        <!--===============================-->
         <!--== Schedule ===================-->
         <!--===============================-->
-        <section id="schedule" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+        <!--<section id="schedule" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-header text-left">
@@ -431,40 +461,18 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--==========-->
-        <!--===============================-->
-        <!--== Image Slider ===============-->
-        <!--===============================-->
-        <section id="image-slider" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-            <div class="row">
-                <div class="col-md-5">
-                    <h2>Event <b>photos</b></h2>
-                    <h4>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <div class="col-md-7">
-                    <div id="slider" class="owl-carousel fit-right">
-                        <img src="images/EventPhotos/Circles.JPG" alt="Slide 1">
-                        <img src="images/EventPhotos/DrygateEntrance.JPG" alt="Slide 1">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </section>-->
         <!--==========-->
         <!--===============================-->
         <!--== FAQ & Testimonials =========-->
         <!--===============================-->
         <section id="faq" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="section-header text-left">
-                        <h2><b>FAQ</b></h2>
-                        <p>Awesome section description goes here.</p>
+                        <h2>
+                            <b>FAQ</b>
+                        </h2>
                     </div>
                     <ul class="accordion">
                         <li>
@@ -474,7 +482,9 @@
                             <div class="accordion-body">
                                 <p>We are currently working to choose which topics will be discussed.</p>
                                 <p>The topics will be of interest to all developers who care about writing great code regardless of experience or background. Topics we are currently considering include TDD, Microservices and Refactoring.</p>
-                                <p>We are looking for people to facilitate the guided conversations, so please <a href="#contact">get in touch</a> if you’d like to help.</p>
+                                <p>
+                                    We are looking for people to facilitate the guided conversations, so please <a href="#contact">get in touch</a> if you’d like to help.
+                                </p>
                             </div>
                         </li>
                         <li>
@@ -503,13 +513,18 @@
                             </a>
                             <div class="accordion-body">
                                 <p>CodeCraftConf will be held in the event space of Drygate, which also contains a bar/restaurant and brewery. Drygate was chosen because of its central location, excellent value, and flexible event space. It is possible to drink on-site, but we would discourage attendees from doing so until after the conference is over. We're principally engaged in thoughtful and considered conversation and that is something that becomes more difficult with the consumption of alcohol. We trust our attendees to act reasonably and responsibly. </p>
-                                <p>However, our <a href="http://www.codecraftuk.org/code-of-conduct.html">Code of Conduct</a> will be enforced. If, due to alcohol or other reasons, you are unable to act within the Code of Conduct (including the provisions for respectful conversation), you will be asked to leave. We do this to protect the enjoyment and safety of our attendees. </p>
+                                <p>
+                                    However, our <a href="http://www.codecraftuk.org/code-of-conduct.html">Code of Conduct</a> will be enforced. If, due to alcohol or other reasons, you are unable to act within the Code of Conduct (including the provisions for respectful conversation), you will be asked to leave. We do this to protect the enjoyment and safety of our attendees.
+                                </p>
 
                             </div>
                         </li>
                     </ul>
+                    <div>
+                        <p>If you have any other questions about the conference please drop us an <a href="mailto:contact@codecraftuk.org"> email</a>.</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <!--<div class="col-md-6">
                     <div class="section-header text-left">
                         <h2><b>Testimonials</b></h2>
                         <p>Awesome section description goes here.</p>
@@ -553,6 +568,29 @@
                         </div>
 
                     </div>
+                </div>-->
+            </div>
+        </section>
+        <!--==========-->
+        <!--===============================-->
+        <!--== Image Slider ===============-->
+        <!--===============================-->
+        <section id="image-slider" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2>2015 Event <b>photos</b></h2>
+                    <h4>
+                        The 2015 event was held at Drygate, just a short walk from the center of Glasgow.
+                    </h4>
+                    <p>
+                        Over 40 delegates enjoyed conversations on a diverse range of software craftsmanship topics including TDD, Microservices and DevOps.
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <div id="slider" class="owl-carousel fit-right">
+                        <img src="images/EventPhotos/Circles.JPG" alt="Slide 1">
+                        <img src="images/EventPhotos/DrygateEntrance.JPG" alt="Slide 1">
+                    </div>
                 </div>
             </div>
         </section>
@@ -560,7 +598,7 @@
         <!--===============================-->
         <!--== News =======================-->
         <!--===============================-->
-        <section id="news" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+        <!--<section id="news" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-left">
@@ -591,12 +629,12 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!--==========-->
         <!--===============================-->
         <!--== Location ===================-->
         <!--===============================-->
-        <section id="location" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+        <!--<section id="location" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <div class="row">
                 <div class="col-sm-12 col-md-7">
                     <div class="map fit-left">
@@ -621,12 +659,12 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!--==========-->
         <!--===============================-->
         <!--== Tickets ====================-->
         <!--===============================-->
-        <section id="tickets" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+        <!--<section id="tickets" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-header text-left">
@@ -679,38 +717,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--==========-->
-        <!--===============================-->
-        <!--== more-information =======-->
-        <!--===============================-->
-        <section id="more-information" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div class="section-header text-left">
-                        <h2><em class="fa fa-envelope"></em> <b>Mailing List</b></h2>
-                        <p>Please sign our mailing list to get the latest news about ticket infomation.</p>
-                    </div>
-                    <form id="subscribe-form" method="post" class="form">
-                        <input name="name" id="sname" type="text" placeholder="Name" required>
-                        <input name="email" id="smail" type="email" placeholder="Email" required>
-                        <button type="submit" name="submit" class="button button-active">Subscribe</button>
-                    </form>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="section-header text-left">
-                        <h2>
-                            <em class="fa fa-twitter"></em> <b>Follow us on Twitter</b>
-                        </h2>
-                        <p>Follow us on twitter to get the latest conference news and join the conversation.</p>
-                    </div>
-                    <div>
-
-                        <span><a class="button button-active" href="https://twitter.com/codecraftuk">Follow CodeCraftUK</a></span>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </section>-->
         <!--==========-->
         <!--===============================-->
         <!--== Footer =====================-->
