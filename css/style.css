@@ -1369,3 +1369,9 @@ footer.footer {
 	line-height: 1em;
 	margin-top: 4rem;
 }
+
+.indicates-required {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 4%;
+}
