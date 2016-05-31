@@ -997,6 +997,18 @@ Pricing Tables
 	color: #222;
 }
 
+.table-features > li.buytickets {
+	color: #fff;
+    background-color: #c13832;
+    font-size: 25px;
+    font-weight: 700;
+}
+.table-features > li.buytickets > a,
+.table-features > li.buytickets > a:hover,
+.table-features > li.buytickets > a:focus {
+  color: #fff;
+  border: 0;
+}
 
 
 /*--------------------
