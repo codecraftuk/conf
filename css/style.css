@@ -1002,12 +1002,16 @@ Pricing Tables
     background-color: #c13832;
     font-size: 25px;
     font-weight: 700;
+    padding: 0;
 }
 .table-features > li.buytickets > a,
 .table-features > li.buytickets > a:hover,
 .table-features > li.buytickets > a:focus {
-  color: #fff;
-  border: 0;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 15px;
 }
 
 
