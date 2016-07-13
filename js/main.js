@@ -123,7 +123,7 @@
                     [240, 1]
                 ],
                 slideSpeed: 400,
-                autoPlay: 4000,
+                autoPlay: 10000,
                 mouseDrag: false
             });
         },
