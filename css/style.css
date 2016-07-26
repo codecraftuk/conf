@@ -197,7 +197,7 @@ textarea:focus, input:focus{
 	line-height: 3rem;
 	font-weight: 600;
 	border: 0;
-
+    display: inline-block;
 	transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-webkit-transition: all 0.2s;
