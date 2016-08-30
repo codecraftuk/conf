@@ -275,13 +275,13 @@
         Apps: function () {
             // Fancy Select
             $('select').fancySelect();
-
+            
             // Accordion
             $('.accordion').accordion();
-
+            
             // Placeholders
             $('input, textarea').placeholder();
-
+            
             // Speakers
             $(function () {
                 var speaker = $(".speaker");
@@ -289,7 +289,7 @@
                     $(this).toggleClass("active");
                 });
             });
-
+            
             // Typed
             $(function () {
                 $(".typed").typed({
