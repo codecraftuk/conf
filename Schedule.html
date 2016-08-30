@@ -5,7 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
-
     <!--== CSS Files ==-->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
@@ -16,38 +15,34 @@
     <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
     <link href="css/responsive.css" rel="stylesheet" media="screen">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-
     <!--== Google Fonts ==-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        #sessions img {
+            border-radius: 50%;
+        }
 
-     <style>
-     #sessions img {
-        border-radius: 50%;
-     }
+        #sessions ul {
+            list-style-type: none;
+            list-style-image: none;
+        }
 
-     #sessions ul {
-        list-style-type: none;
-        list-style-image: none;
-     }
-
-     #sessions li {
-        display: inline;
-        padding-right: 30px;
-        float: left;
-        text-align: center;
-        padding-bottom: 22px;
-        line-height: 22px;
-     }
+        #sessions li {
+            display: inline;
+            padding-right: 30px;
+            float: left;
+            text-align: center;
+            padding-bottom: 22px;
+            line-height: 22px;
+        }
     </style>
 </head>
 <body>
     <div id="home"></div>
     <header id="header" class="header" data-stellar-ratio="0.5">
-
         <!--== Preloader ==-->
         <div id="preloader"><div class="preloader"></div></div>
-
         <!--== Caption ==-->
         <div class="header-caption" data-stellar-ratio="2">
             <div class="container">
@@ -57,7 +52,6 @@
                 </div>
             </div>
         </div>
-
         <!--== Header Background ==-->
         <div id="header-background" class="header-background">
             <ul class="slides">
@@ -65,14 +59,11 @@
                 <li><img src="images/CitzenM_Main_Room.jpg" alt="Background image 2"></li>
             </ul>
         </div>
-
     </header>
-
     <div id="navigation-wrap" class="navigation-wrap">
         <div id="navigation" class="navigation">
             <div class="container">
                 <nav class="navbar navbar-custom" role="navigation">
-
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
                             <span class="sr-only">Toggle navigation</span>
@@ -83,13 +74,12 @@
                         <!--<a href="#tickets" class="register">Buy Tickets Now</a>-->
                         <a href="#tickets" class="register">Buy Tickets</a>
                     </div>
-
                     <!--== Site Menu ==-->
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#sessions">Sessions</a></li>
+                            <!--<li><a href="#sessions">Sessions</a></li>-->
                             <li><a href="#schedule">Schedule</a></li>
                             <li><a href="#tickets">Tickets</a></li>
                             <li><a href="#location">Location</a></li>
@@ -100,14 +90,11 @@
                             <!--<li><a href="#schedule">Schedule</a></li>-->
                         </ul>
                     </div>
-
                 </nav>
             </div>
         </div>
     </div>
-
     <div class="container content">
-
         <!--===============================-->
         <!--== About ======================-->
         <!--===============================-->
@@ -127,14 +114,11 @@
                     <p>This conference will be different.</p>
                     <p> In small groups, we will have guided conversations around the latest topics of interest to software developers. We'll provide the guide, and you'll provide your thoughts. We will all learn from each other.</p>
                     <p>Join us on <strong>Friday 16th September 2016</strong> for a day of conversations and workshops.</p>
-
                     <h3>A Call For Guides</h3>
                     <p>We need your help to make this happen! We need people who are familiar with a topic to guide a conversation.</p>
                     <div><a href="cfg.html" class="button">Do you want to be a guide?</a></div>
                     <h3>Drop-in Sessions</h3>
-
                     <p>Not sure? Or have some questions? We are running online drop-in sessions where you can learn about being a guide. The next one is at <a href="https://plus.google.com/u/1/events/c9pbi54imv6a7v6ggdk0iv3u6ho" target="_blank">8:30pm on Tuesday the 9th of August</a>.</p>
-
 
                 </div>
                 <!--<div class="col-xs-6 col-md-2">
@@ -153,13 +137,11 @@
         </section>
 
 
-        
         <!--==========-->
         <!--===============================-->
         <!--== Sessions ===================-->
         <!--===============================-->
-
-        <section id="sessions">
+        <!--<section id="sessions">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-header text-left">
@@ -205,9 +187,7 @@
                 </div>
 
             </div>
-        </section>
-
-
+        </section>-->
         <!--==========-->
         <!--===============================-->
         <!--== Schedule ===================-->
@@ -219,7 +199,7 @@
                         <h2>
                             The <b>schedule</b>
                         </h2>
-                        <p>Tracks one, two and three will be in the main area. Track four will be in the bar area.</p>
+                        <p>Tracks one and two will be in the main area. The workshop tracks are in the meeting room.</p>
                     </div>
                 </div>
             </div>
@@ -267,12 +247,28 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <a class="accordion-heading-no-body">
+                                        <a class="accordion-heading">
                                             <span class="schedule-time accent">
                                                 9<sup>30</sup>
                                             </span>
                                             <h4 class="accordion-title"><b>Guided Conversation:</b> Writing usable APIs</h4>
                                         </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/craig.jpg">
+                                                    <h4>Craig Nicol</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -284,12 +280,28 @@
                                         <h4 class="accordion-title">Slack</h4>
                                     </li>
                                     <li>
-                                        <a class="accordion-heading-no-body">
+                                        <a class="accordion-heading">
                                             <span class="schedule-time accent">
                                                 10<sup>40</sup>
                                             </span>
-                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Quality Time</h4>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Time to Test</h4>
                                         </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/cassandra.jpg">
+                                                    <h4>Catherine McNeil</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -301,12 +313,28 @@
                                         <h4 class="accordion-title">Coffee</h4>
                                     </li>
                                     <li>
-                                        <a class="accordion-heading-no-body">
+                                        <a class="accordion-heading">
                                             <span class="schedule-time accent">
                                                 12<sup>00</sup>
                                             </span>
                                             <h4 class="accordion-title"><b>Guided Conversation:</b> Simplicity</h4>
                                         </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/caroline.png">
+                                                    <h4>Caroline Kirkhope</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <a class="accordion-heading">
@@ -328,12 +356,28 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <a class="accordion-heading-no-body">
+                                        <a class="accordion-heading">
                                             <span class="schedule-time accent">
                                                 14<sup>00</sup>
                                             </span>
                                             <h4 class="accordion-title"><b>Guided Conversation:</b> Being a Tech Lead</h4>
                                         </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/unknown.jpg">
+                                                    <h4>Catherine McNeil</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -345,12 +389,28 @@
                                         <h4 class="accordion-title">Coffee</h4>
                                     </li>
                                     <li>
-                                        <a class="accordion-heading-no-body">
+                                        <a class="accordion-heading">
                                             <span class="schedule-time accent">
                                                 15<sup>20</sup>
                                             </span>
                                             <h4 class="accordion-title"><b>Guided Conversation:</b> Legacy Code</h4>
                                         </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>What is legacy code?</li>
+                                                    <li>What problems does legacy code cause?</li>
+                                                    <li>Refactoring vs rewriting</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/keith.png">
+                                                    <h4>Keith Harrison</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <a class="accordion-heading">
@@ -421,10 +481,28 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            9<sup>30</sup>
-                                        </span>
-                                        <h4 class="accordion-title"><b>Guided Conversation:</b> Agile Leadership</h4>
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                9<sup>30</sup>
+                                            </span>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Agile Leadership</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/ChrisMcDermott.jpeg">
+                                                    <h4>Chris McDermott</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -436,10 +514,29 @@
                                         <h4 class="accordion-title">Slack</h4>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            10<sup>40</sup>
-                                        </span>
-                                        <h4 class="accordion-title"><b>Guided Conversation:</b> Containerisation</h4>
+
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                10<sup>40</sup>
+                                            </span>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Containerisation</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/david.jpg">
+                                                    <h4>David McKay</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -451,10 +548,29 @@
                                         <h4 class="accordion-title">Coffee</h4>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            12<sup>00</sup>
-                                        </span>
-                                        <h4 class="accordion-title"><b>Guided Conversation:</b> Microservices</h4>
+
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                12<sup>00</sup>
+                                            </span>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Microservices</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/unknown.jpg">
+                                                    <h4>Kevin McDermott</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <a class="accordion-heading">
@@ -476,10 +592,29 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            14<sup>00</sup>
-                                        </span>
-                                        <h4 class="accordion-title"><b>Guided Conversation:</b> TBC</h4>
+
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                14<sup>00</sup>
+                                            </span>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> The Cloud</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/unknown.jpg">
+                                                    <h4>Christos Matskas</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <span class="schedule-time accent">
@@ -491,10 +626,28 @@
                                         <h4 class="accordion-title">Coffee</h4>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            15<sup>20</sup>
-                                        </span>
-                                        <h4 class="accordion-title"><b>Guided Conversation:</b> Pair Programming</h4>
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                15<sup>20</sup>
+                                            </span>
+                                            <h4 class="accordion-title"><b>Guided Conversation:</b> Pair Programming</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                <ol>
+                                                    <li>Who?</li>
+                                                    <li>What?</li>
+                                                    <li>Why?</li>
+                                                </ol>
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/unknown.jpg">
+                                                    <h4>Mhari McClair</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <a class="accordion-heading">
@@ -533,16 +686,45 @@
                             <div class="tab-pane fade" id="tab3">
                                 <ul class="accordion">
                                     <li>
-                                        <span class="schedule-time accent">
-                                            10<sup>40</sup> - 13<sup>00</sup>
-                                        </span>
-                                        <h4 class="accordion-title">Lean Startup Game</h4>
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                10<sup>40</sup> - 13<sup>00</sup>
+                                            </span>
+                                            <h4 class="accordion-title">Lean Startup Game</h4>
+                                        </a>
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                Description to be added...
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/adrian.jpg">
+                                                    <h4>Adrian Mowat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span class="schedule-time accent">
-                                            14<sup>00</sup> - 16<sup>00</sup>
-                                        </span>
-                                        <h4 class="accordion-title">TDD: Red, Green, then what?</h4>
+                                        <a class="accordion-heading">
+                                            <span class="schedule-time accent">
+                                                14<sup>00</sup> - 16<sup>00</sup>
+                                            </span>
+                                            <h4 class="accordion-title">TDD: Red, Green, then what?</h4>
+                                        </a>
+
+                                        <div class="accordion-body" style="display: block;">
+                                            <p>
+                                                Description to be added...
+                                            </p>
+                                            <div class="schedule-speaker-list">
+                                                <b>Guide:</b>
+                                                <div class="schedule-speaker">
+                                                    <img alt="Speaker" src="images/guides/kevin.jpg">
+                                                    <h4>Kevin Rutherford</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -551,8 +733,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <!--==========-->
         <!--===============================-->
@@ -596,8 +776,6 @@
             </div>
         </section>
 
-
-
         <!--==========-->
         <!--===============================-->
         <!--== Location ===================-->
@@ -624,8 +802,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <!--==========-->
         <!--===============================-->
@@ -691,7 +867,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!--==========-->
         <!--===============================-->
         <!--== Testimonials       =========-->
@@ -700,7 +876,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-left">
-                        <h2><b>Testimonials</b>
+                        <h2>
+                            <b>Testimonials</b>
                         </h2>
                         <p>Here's what people said about out 2015 event:</p>
                     </div>
@@ -757,8 +934,6 @@
             </div>
         </section>
 
-
-
         <!--==========-->
         <!--===============================-->
         <!--== more-information ===========-->
@@ -810,8 +985,6 @@
             </div>
         </section>
 
-
-
         <!--==========-->
         <!--===============================-->
         <!--== News =======================-->
@@ -855,14 +1028,12 @@
         <footer id="footer" class="footer">
             <div class="row">
                 <div class="col-sm-8">
-
                     <!--== Social Icons ==-->
                     <ul class="social-icons">
                         <li><a href="http://codecraftuk.org/" class="fa fa-laptop"></a></li>
                         <li><a href="https://twitter.com/codecraftuk" class="fa fa-twitter"></a></li>
                         <li><a href="mailto:contact@codecraftuk.org" class="fa fa-envelope"></a></li>
                     </ul>
-
                 </div>
                 <div class="col-sm-4 text-right">
                     <div class="copyrights"></div>
@@ -870,9 +1041,7 @@
             </div>
         </footer>
         <!--==========-->
-
     </div>
-
 
     <!--== Javascript Files ==-->
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -890,7 +1059,6 @@
     <script src="js/wow.min.js"></script>
     <script src="js/gmap3.js"></script>
     <script src="js/main.js"></script>
-
     <script type="text/javascript">  var appInsights = window.appInsights || function (config) { function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = u.createElement(o), i, f; for (s.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) r("track" + i.pop()); return r("setAuthenticatedUserContext"), r("clearAuthenticatedUserContext"), config.disableExceptionTracking || (i = "onerror", r("_" + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t["_" + i](config, r, u, e, o), s }), t }({ instrumentationKey: "90489d45-ba0b-437b-b7c9-7c811720b023" }); window.appInsights = appInsights; appInsights.trackPageView();</script>
 </body>
 </html>
