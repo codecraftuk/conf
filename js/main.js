@@ -9,8 +9,6 @@
         // Launch Functions
         Launch: function () {
             fn.GoogleMaps();
-            fn.MainSliderAlign();
-            fn.MainSlider();
             fn.Stellar();
             fn.Navigation();
             fn.Carousel();
@@ -48,39 +46,7 @@
                 "autofit");
         },
 
-
-
-        // Align Slider Images
-        MainSliderAlign: function () {
-            var imageWidth, imageHeight, widthFix, heightFix, image = $('.header img');
-            function centerImage() {
-                imageWidth = image.width();
-                imageHeight = image.height();
-                widthFix = imageWidth / 2;
-                heightFix = imageHeight / 2;
-                image.css({'margin-left' : -widthFix, 'margin-top' : -heightFix});
-            }
-            $(window).on("load resize", centerImage);
-        },
-
-
-
-        // Main FlexSlider
-        MainSlider: function () {
-            $(window).load(function () {
-                $('#header-background').flexslider({
-                    noCSS: true,
-                    touch: false,
-                    controlNav: false,
-                    directionNav: false,
-                    animation: "fade",
-                    start: function () {
-                        $('#preloader').addClass('ready');
-                    }
-                });
-            });
-        },
-
+        
 
 
         // Stellar
@@ -287,16 +253,6 @@
                 var speaker = $(".speaker");
                 speaker.hover( function () {
                     $(this).toggleClass("active");
-                });
-            });
-            
-            // Typed
-            $(function () {
-                $(".typed").typed({
-                strings: eventInfo,
-                typeSpeed: 50,
-                backDelay: 2000,
-                loop: true
                 });
             });
         }
