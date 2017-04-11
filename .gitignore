@@ -21,3 +21,5 @@ bld/
 [Bb]in/
 [Oo]bj/
 /conf.sln
+node_modules/
+/.vs
