@@ -39,7 +39,7 @@
 @media (max-width: 480px) {
 
 	.header-caption .box h1 { font-size: 5rem; }
-	.header-caption .box span { font-size: 2.5rem; }
+	.header-caption .box .subtext { font-size: 2.5rem; }
 
 	.testimonial-avatar { display: none; }
 	.testimonial-content { margin: 0; padding: 0; }

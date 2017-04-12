@@ -8,7 +8,7 @@
 
         // Launch Functions
         Launch: function () {
-            fn.GoogleMaps();
+            
             fn.Stellar();
             fn.Navigation();
             fn.Carousel();
@@ -19,6 +19,7 @@
             fn.RegisterForm();
             fn.SubscribeForm();
             fn.Apps();
+            fn.GoogleMaps();
         },
 
 
