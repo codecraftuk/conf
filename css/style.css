@@ -296,10 +296,23 @@ Header
 	z-index: 40;
 }
 
+/*@media (max-width: 767px) {
+    .header-caption {
+        bottom: 10%;
+    }
+}*/
 .header-caption .box {
 	padding: 1.5rem 3rem;
 	border-width: 0 0 0 3px;
 	border-style: solid;
+}
+
+@media (max-width: 767px) {
+    .header-caption .box {
+	    border-style: none;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
 }
 
 .header-caption .box h1 {
@@ -307,6 +320,10 @@ Header
 	font-weight: 700;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.header-caption .box h1 span {
+	font-size: 7rem;
 }
 
 .header-caption .box .subtext {
