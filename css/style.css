@@ -618,6 +618,13 @@ Content
 	background: #fff;
 }
 
+@media (max-width: 767px) {
+    .content section,
+	.content footer {
+        margin: 4rem 0 0 0;
+    }
+}
+
 .section-header {
 	margin: 0 0 4rem 0;
 }
@@ -1355,6 +1362,13 @@ Testimonials
 	font-size: 2rem;
 	font-style: italic;
 	margin: 0;
+}
+
+@media (max-width: 767px) {
+    .testimonial-content p {
+        padding: 12px;
+        padding-top: 8px;
+    }
 }
 
 .testimonial-author img {

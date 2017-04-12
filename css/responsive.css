@@ -21,7 +21,7 @@
 @media (max-width: 767px) {
 
 	html { font-size: 50.5% }
-	.header-background { height: 500px; }
+	.header-background { height: 400px; }
 
 	.content section,
 	.content footer { padding: 1rem 2.5rem; }
