@@ -11,13 +11,13 @@
             
             fn.Stellar();
             fn.Navigation();
-            fn.Carousel();
-            fn.Slider();
+            //fn.Carousel();
+            //fn.Slider();
             fn.Menu();
-            fn.Wow();
+            //fn.Wow();
             fn.StickyMenu();
-            fn.RegisterForm();
-            fn.SubscribeForm();
+            //fn.RegisterForm();
+            //fn.SubscribeForm();
             fn.Apps();
             fn.GoogleMaps();
         },
@@ -247,7 +247,7 @@
             $('.accordion').accordion();
             
             // Placeholders
-            $('input, textarea').placeholder();
+            //$('input, textarea').placeholder();
             
             // Speakers
             $(function () {
