@@ -32,7 +32,7 @@ Table of Contents
 Color Scheme
 --------------------*/
 .preloader div, .preloader, .preloader:before, .preloader:after,
-.button, a.register, .speaker-contacts, .highlight .table-header,
+.button, a.register, .speaker-contacts, .highlight,
 .owl-buttons, ul.social-icons li a:hover, .button-active:after,
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus, div.fancy-select ul.options li.selected {
@@ -109,6 +109,10 @@ h1 {
     font-size: 9rem;
 }
 
+h1 span {
+    font-size: 7.5rem;
+}
+
 h2 {
     font-size: 4.5rem;
 }
@@ -124,6 +128,7 @@ h4 {
 h5 {
     font-size: 2em;
 }
+
 
 blockquote {
 	font-size: 2rem;
@@ -322,13 +327,10 @@ Header
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.header-caption .box h1 span {
-	font-size: 7rem;
-}
 
 .header-caption .box .subtext {
-	font-size: 4rem;
-        
+	font-size: 4.5rem;
+    font-weight: 700;
 	line-height: 1em;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -996,11 +998,11 @@ Pricing Tables
 .table-header {
 	position: relative;
 	padding: 15px 30px;
-	background: #ebeef0;
+	background: #f4f6f7;
 	text-align: center;
 }
 
-.table-header:after {
+/*.table-header:after {
 	position: absolute;
 	left: 0;
 	bottom: -30px;
@@ -1009,7 +1011,7 @@ Pricing Tables
 	border-right: 30px solid rgba(0, 0, 0, 0);
 	border-top: 30px solid #ebeef0;
 	content: "";
-}
+}*/
 
 .highlight .table-header > * {
 	color: #fff;
@@ -1022,7 +1024,7 @@ Pricing Tables
 }
 
 .table-header > h3 {
-	font-size: 25px;
+	font-weight: 700;
 }
 
 .table-header > b {

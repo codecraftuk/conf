@@ -21,29 +21,47 @@
 @media (max-width: 767px) {
 
 	html { font-size: 50.5% }
+	
+
 	.header-background { height: 400px; }
 
 	.content section,
 	.content footer { padding: 1rem 2.5rem; }
 	.section-header { margin: 1.5 0 2rem 0; }
-	.header-caption .box h1 { font-size: 8rem; }
-    .header-caption .box h1 span { font-size: 6.5rem }
-	.header-caption .box .subtext { font-size: 4rem; }
+	
 
 	/* Schedule */
 	.schedule-speaker,
 	.schedule-speaker-list { display: none; }
 	.schedule-time { width: 100%; padding-bottom: 0; text-align: left;  }
-
+	
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) {	
+	h1 { 
+		font-size: 6rem; 
+	}
+	h1 span { 
+		font-size: 4.5rem; 
+	}
+	h2 {
+    	font-size: 3rem;
+	}
+	
+	h3 {
+		font-size: 2.5rem;
+		margin-bottom: 0.5rem;
+	}
 
-	.header-caption .box h1 { font-size: 5.5rem; }
-    .header-caption .box h1 span { font-size: 4.5rem }
-	.header-caption .box .subtext { font-size: 2.5rem; }
-    
+	h4 {
+		font-size: 2rem;
+	}
 
+	h5 {
+		font-size: 2em;
+	}
+
+	.header-caption .box .subtext { font-size: 3rem; }
 	.testimonial-avatar { display: none; }
 	.testimonial-content { margin: 0; padding: 0; }
 	.partner { height: auto; }
