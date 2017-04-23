@@ -5,3 +5,19 @@
 
 ga('create', 'UA-138996-11', 'auto');
 ga('send', 'pageview');
+
+$("#mc-embedded-subscribe").click(function () {
+    ga('send', 'event', 'email', 'subscribe', 'subcribe');
+});
+
+$("#buyTicketsLink").click(function () {
+    ga('send', 'event', 'tickets', 'buy', 'link');
+});
+
+$("#buyDiscountTicketsLink").click(function () {
+    ga('send', 'event', 'tickets', 'buy', 'discount');
+});
+
+$("#buyStandardTicketsLink").click(function () {
+    ga('send', 'event', 'tickets', 'buy', 'standard');
+});
