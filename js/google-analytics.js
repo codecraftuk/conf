@@ -7,7 +7,7 @@ ga('create', 'UA-138996-11', 'auto');
 ga('send', 'pageview');
 
 $("#mc-embedded-subscribe").click(function () {
-    ga('send', 'event', 'email', 'subscribe', 'subcribe');
+    ga('send', 'event', 'email', 'subscribe');
 });
 
 $("#buyTicketsLink").click(function () {
