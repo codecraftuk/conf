@@ -1485,3 +1485,15 @@ footer.footer {
     padding-bottom: 22px;
     line-height: 22px;
 }
+
+.soldout
+{
+    background-color: red !important;  
+    color: #fff !important;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 15px !important;
+    font-size: 25px;
+    font-weight: 700;
+}
