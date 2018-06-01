@@ -1,8 +1,8 @@
 (function ($) {
     "use strict";
 
-    var venueAddress = "citizenM, 60 Renfrewstreet, Glasgow, G2 3BW", // Venue Address
-        eventInfo = ["citizenM, Glasgow, Scotland", "Date: Friday 16th September"]; // Event Info
+    var venueAddress = "Royal College of Physicians and Surgeons, 232-242 St Vincent Street, Glasgow G2 5RJ", // Venue Address
+        eventInfo = ["Royal College of Physicians and Surgeons, Glasgow, Scotland", "Date: Friday 14th September"]; // Event Info
 
     var fn = {
 

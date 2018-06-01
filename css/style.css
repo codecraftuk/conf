@@ -36,23 +36,23 @@ Color Scheme
 .owl-buttons, ul.social-icons li a:hover, .button-active:after,
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus, div.fancy-select ul.options li.selected {
-	background-color: #DD9400; /* <- Paste here your prefered color */
+	background-color: #478EFF; /* <- Paste here your prefered color */
 }
 
 blockquote, input:focus, .header-caption .box, .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > .active > a, 
 .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus,
 div.fancy-select div.trigger.open {
-	border-color: #DD9400; /* <- Paste here your prefered color */
+	border-color: #478EFF; /* <- Paste here your prefered color */
 }
 
 .highlight .table-header:after,
 .nav-tabs > li.active > a:after {
-	border-top-color: #DD9400; /* <- Paste here your prefered color */
+	border-top-color: #478EFF; /* <- Paste here your prefered color */
 }
 
 a, div.fancy-select ul.options li.hover {
-	color: #DD9400; /* <- Paste here your prefered color */
+	color: #478EFF; /* <- Paste here your prefered color */
 }
 
 
@@ -1059,7 +1059,7 @@ Pricing Tables
 
 .table-features > li.buytickets {
 	color: #fff;
-    background-color: #DD9400;
+    background-color: #478EFF;
     font-size: 25px;
     font-weight: 700;
     padding: 0;
@@ -1121,7 +1121,7 @@ Location
 	width: 3rem;
 	line-height: 3rem;
 	font-size: 2.8rem;
-	color: #DD9400;
+	color: #478EFF;
 	text-align: center;
 }
 

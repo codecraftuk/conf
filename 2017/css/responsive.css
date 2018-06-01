@@ -1,0 +1,97 @@
+
+@media (max-width: 991px) {
+	.navigation-wrap { position: fixed; top: 0; }
+	.navbar-custom .navbar-nav > li {
+		float: left;
+		width: 50%;
+	}
+	.navbar-custom .navbar-nav > li > a { 
+		border-width:  0 0 0 0.5rem;
+		border-style: solid;
+		padding: 2rem;
+	}
+	a.register { 
+		position: relative; 
+		float: right; 
+		padding: 3rem 2rem; 
+	}
+	.navbar-nav { border-bottom: 1px solid #ebeef0; }
+}
+
+@media (max-width: 767px) {
+
+	html { font-size: 50.5% }
+	
+
+	.header-background { height: 400px; }
+
+	.content section,
+	.content footer { padding: 1rem 2.5rem; }
+	.section-header { margin: 1.5 0 2rem 0; }
+	
+
+	/* Schedule */
+	.schedule-speaker,
+	.schedule-speaker-list { display: none; }
+	.schedule-time { width: 100%; padding-bottom: 0; text-align: left;  }
+	
+}
+
+@media (max-width: 480px) {	
+	h1 { 
+		font-size: 6rem; 
+	}
+	h1 span { 
+		font-size: 4.5rem; 
+	}
+	h2 {
+    	font-size: 3rem;
+	}
+	
+	h3 {
+		font-size: 2.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	h4 {
+		font-size: 2rem;
+	}
+
+	h5 {
+		font-size: 2em;
+	}
+
+	.header-caption .box .subtext { font-size: 3rem; }
+	.testimonial-avatar { display: none; }
+	.testimonial-content { margin: 0; padding: 0; }
+	.partner { height: auto; }
+
+	.map { height: 250px; }
+
+	.news-date { width: 100%; padding: 1rem 1.5rem; }
+	.news a { margin: 0; }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	html { font-size: 54.5% }
+	.header-background { height: 500px; }
+
+	.content section,
+	.content footer { padding: 2rem 3.5rem; }
+	.section-header { margin: 1.5rem 0 3rem 0; }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-background { height: 600px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+	.header-background { height: 625px; }
+}
+
+@media (min-width: 1300px) {
+	
+}
