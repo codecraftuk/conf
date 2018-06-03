@@ -296,16 +296,23 @@ Header
 
 .header-caption {
 	position: absolute;
-	bottom: 20%;
+	bottom: 40%;
 	width: 100%;
 	z-index: 40;
 }
 
-/*@media (max-width: 767px) {
+@media (max-width: 767px) {
     .header-caption {
-        bottom: 10%;
+        bottom: 20%;
     }
-}*/
+}
+
+@media (max-width: 480px) {
+    .header-caption {
+        bottom: 25%;
+    }
+}
+
 .header-caption .box {
 	padding: 1.5rem 3rem;
 	border-width: 0 0 0 3px;
