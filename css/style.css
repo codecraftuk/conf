@@ -1002,11 +1002,15 @@ Pricing Tables
 	margin: 0 auto 1.5rem auto;
 }
 
+.pricing-table-sold-out{
+    opacity: 0.5;
+}
+
 .table-header {
-	position: relative;
-	padding: 15px 30px;
-	background: #f4f6f7;
-	text-align: center;
+    position: relative;
+    padding: 15px 30px;
+    background: #f4f6f7;
+    text-align: center;
 }
 
 /*.table-header:after {
