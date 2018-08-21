@@ -718,6 +718,58 @@ Content
 /*--------------------
 Schedule
 --------------------*/
+
+.schedule .schedule__time {
+    background-color: #ebeef0;
+    padding: 16px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #222;
+}
+
+.schedule section {
+    padding: 0px;
+    padding-left: 24px;
+    margin-top: 0;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.schedule .schedule__title {
+    font-weight: 300;
+    font-size: 32px;
+    color: #222;
+    padding-bottom: 8px;
+}
+
+.schedule .schedule__track {
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 8px;
+    color: #222;
+}
+
+.schedule .schedule__event {
+    padding-top: 8px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.schedule .schedule__description {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #222;
+    font-weight: 400;
+}
+
+.schedule .schedule__name {
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .schedule-time {
 	float: left;
 	min-width: 130px;
