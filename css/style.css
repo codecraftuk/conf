@@ -720,30 +720,34 @@ Schedule
 --------------------*/
 
 .schedule .schedule__time {
-    background-color: #ebeef0;
-    padding: 16px;
+    padding: 8px;
+    padding-bottom: 4px;
     padding-left: 24px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 22px;
     color: #222;
 }
 
 .schedule section {
     padding: 0px;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 8px;
     margin-left: 24px;
+    border-bottom: 1px solid #dddddd;
 }
 
 @media (max-width: 767px) {
     .schedule section {
         margin-left: 0px;
+        margin-bottom: 16px;
+        padding-bottom: 24px !important;
     }
 }
 
 .schedule .schedule__title {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     color: #222;
     padding-top: 8px;
 }
