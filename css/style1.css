@@ -765,7 +765,11 @@ Schedule
 
 @media (max-width: 767px) {
     .schedule .schedule__card {
-        height: 800px;
+        height: 600px;
+    }
+
+    .schedule .schedule__description {
+        font-size: 17px !important;
     }
 }
 .schedule .schedule__track {
