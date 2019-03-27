@@ -21,9 +21,8 @@
 @media (max-width: 767px) {
 
 	html { font-size: 50.5% }
-	
 
-	.header-background { height: 400px; }
+	.header-background { height: 360px; }
 
 	.content section,
 	.content footer { padding: 1rem 2.5rem; }
@@ -76,8 +75,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
 	html { font-size: 54.5% }
-	.header-background { height: 500px; }
-
+	.header-background { height: 440px; }
+    .header-caption  { bottom: 20%; }
 	.content section,
 	.content footer { padding: 2rem 3.5rem; }
 	.section-header { margin: 1.5rem 0 3rem 0; }
@@ -85,7 +84,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .header-background { height: 600px; }
+    .header-background { height: 560px; }
 }
 
 @media (min-width: 1200px) and (max-width: 1280px) {
