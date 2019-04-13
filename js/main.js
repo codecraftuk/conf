@@ -2,7 +2,7 @@
     "use strict";
 
     var venueAddress = "Royal College of Physicians and Surgeons, 232-242 St Vincent Street, Glasgow G2 5RJ", // Venue Address
-        eventInfo = ["Royal College of Physicians and Surgeons, Glasgow, Scotland", "Date: Friday 14th September"]; // Event Info
+        eventInfo = ["Royal College of Physicians and Surgeons, Glasgow, Scotland", "Date: Friday 20th September"]; // Event Info
 
     var fn = {
 
@@ -19,35 +19,8 @@
             //fn.RegisterForm();
             //fn.SubscribeForm();
             fn.Apps();
-            fn.GoogleMaps();
         },
 
-
-
-        // Google Maps
-        GoogleMaps: function () {
-
-            $("#map-canvas").gmap3({
-                map: {
-                    options: {
-                        maxZoom: 15,
-                        streetViewControl: false,
-                        panControl: false,
-                        zoomControl: true,
-                        scrollwheel: false,
-                        mapTypeControl: false
-
-                    }
-                },
-                marker: {
-                    address: venueAddress,
-                    options:{ icon: "images/pin.png" }
-                }
-            },
-                "autofit");
-        },
-
-        
 
 
         // Stellar

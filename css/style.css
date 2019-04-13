@@ -1231,14 +1231,19 @@ Pricing Tables
 /*--------------------
 Location
 --------------------*/
-.map {
-	height: 450px;
+.map-canvas {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
 }
 
-#map-canvas {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+.map-canvas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .contact {
