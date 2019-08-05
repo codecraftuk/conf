@@ -799,16 +799,19 @@ Schedule
 
 .schedule .schedule__event {
     padding-top: 8px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: #478eff;
+    align-self: center;
 }
 
 .schedule .schedule__name {
-    font-size: 15px;
+    padding-top: 8px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     color: #333;
+    align-self: center;
 }
 
 .schedule .schedule__description {
