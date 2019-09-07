@@ -677,7 +677,7 @@ Content
 
 .fit-right {
 	position: relative;
-	margin: -5rem -7.5rem -5rem 0; 
+	margin: -5rem -6.5rem -0rem 0; 
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.fit-right { margin: 3rem -4.5rem -2rem -3.5rem; }
@@ -1234,6 +1234,17 @@ Pricing Tables
 /*--------------------
 Location
 --------------------*/
+.venue-map {
+	height: 500px;
+}
+
+@media (max-width: 767px) {
+	.venue-map {
+		height: 320px;
+	}
+}
+
+
 .map-canvas {
     position: relative;
     padding-bottom: 75%;
@@ -1256,7 +1267,6 @@ Location
 
 .contact-info {
 	position: relative;
-	float: left;
 	width: 100%;
 	padding: 2rem 0 2rem 4.5rem;
 }
