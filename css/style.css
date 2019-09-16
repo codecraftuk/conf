@@ -788,7 +788,10 @@ Schedule
 
 
 .schedule .schedule__track-room-name {
-    font-weight: 400;
+    padding-top: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 700;
     font-size: 22px;
     padding-bottom: 8px;
     color: #222;
